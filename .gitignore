@@ -1,0 +1,44 @@
+# Ignore compiled object files
+*.o
+*.obj
+
+# Ignore compiled binary files
+*.exe
+*.out
+*.class
+
+# Ignore backup files
+*~
+*.bak
+*.tmp
+
+# Ignore log files
+*.log
+
+# Ignore build directories
+/build/
+/bin/
+/target/
+
+# Visual Studio Code
+.vscode/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# Ignore dependency directories
+/lib/
+lib/
+
+# Ignore Java dependency management files
+*.jar
+*.war
+*.ear
+
+# Ignore CMake build files
+CMakeFiles/
+CMakeCache.txt
+Makefile
+cmake_install.cmake
